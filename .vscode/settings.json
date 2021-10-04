@@ -1,0 +1,17 @@
+{
+    "multiCommand.commands" :[
+        {
+            "command": "multiCommand.uiCompiler",
+            "sequence": [
+                "workbench.action.terminal.sendSequence",
+                {
+                    "args": {
+                        "text": "python C:/Users/ehau/Documents/Python/UiCompiler/main.py"
+                    }
+                },
+                "workbench.action.terminal.runSelectedText",
+                "editor.action.deleteLines"
+            ]
+        }
+    ]
+}
